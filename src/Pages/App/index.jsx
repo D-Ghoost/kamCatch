@@ -2,12 +2,12 @@ import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
-import LoginContent from "../LoginContent";
+import Login from "../Login";
 
 
 const AppRouter = createBrowserRouter([
-  { path: "/", element: <LoginContent /> },
-  { path: "/login", element: <LoginContent /> },
+  { path: "/", element: <Login /> },
+  { path: "/login", element: <Login /> },
 ]);
 
 function App() {
