@@ -4,7 +4,6 @@ import {
 } from "react-router-dom";
 import Login from "../Login";
 import Home from "../Home";
-import { AppProvider } from "../../Context";
 
 
 const AppRouter = createBrowserRouter([
@@ -15,9 +14,9 @@ const AppRouter = createBrowserRouter([
 
 function App() {
   return (
-    <AppProvider>
+
       <RouterProvider router={ AppRouter } />
-    </AppProvider>
+      
   )
 }
 
